@@ -3,7 +3,17 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-22T16:34:41.96774903Z"
+    created: "2023-12-22T16:57:03.945368226Z"
+    description: A Helm replica count upto 3  update chart for Kubernetes
+    digest: 039f0ecf74276c749ab5dd44ac4e2c8f516ec9c604253e315bd5ab9857b3a7a4
+    name: nginx
+    type: application
+    urls:
+    - Packages/nginx-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-22T16:57:03.943862843Z"
     description: A Helm update chart for Kubernetes
     digest: 771c4a5884d79629b1a4ae4fbe81b0cec3c058cd32bf6b9799248c1e3147de5e
     name: nginx
@@ -13,7 +23,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-22T16:34:41.965746953Z"
+    created: "2023-12-22T16:57:03.942954453Z"
     description: A Helm chart for Kubernetes
     digest: a275ddf18644d1224df8d44d4342275245cb411fce6d5894e81b8aa84153ffe1
     name: nginx
@@ -21,4 +31,4 @@ entries:
     urls:
     - Packages/nginx-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-22T16:34:41.964680965Z"
+generated: "2023-12-22T16:57:03.941874266Z"
